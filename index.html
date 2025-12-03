@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Simple Shop - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Simple Shop</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a> 
+        <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img src="https://picsum.photos/1400/400?random=1" alt="Shop banner" class="hero-banner">
+    </section>
+
+    <section class="categories">
+      <h2>Shop by category</h2>
+      <div class="categories-grid">
+        <a class="category" href="product1.html"><img src="clothing.jpg" alt="Clothing"><span>Clothing</span></a>
+        <a class="category" href="product2.html"><img src="download.jpg" alt="Electronics"><span>Electronics</span></a>
+        <a class="category" href="product3.html"><img src="download (1).jpg" alt="Handmade Crafts"><span>Handmade</span></a>
+      </div>
+    </section>
+
+    <h2>Featured Products</h2>
+    <div class="products-grid">
+      <article class="product">
+        <img src="tee.jpg" alt="Classic T-shirt">
+        <h3>Classic Tee</h3>
+        <p class="price">$19.00</p>
+        <p class="meta">Clothing · Comfortable cotton tee</p>
+        <p><a class="btn" href="product1.html">View product</a></p>
+      </article>
+
+      <article class="product">
+        <img src="earbud.webp" alt="Wireless earbuds">
+        <h3>Wireless Earbuds</h3>
+        <p class="price">$49.00</p>
+        <p class="meta">Electronics · Clear sound, long battery</p>
+        <p><a class="btn" href="product2.html">View product</a></p>
+      </article>
+
+      <article class="product">
+        <img src="mugs.avif" alt="Handmade mug">
+        <h3>Handmade Mug</h3>
+        <p class="price">$24.00</p>
+        <p class="meta">Crafts · Ceramic, unique glaze</p>
+        <p><a class="btn" href="product3.html">View product</a></p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Simple Shop &copy; 2025</p>
+    </div>
+  </footer>
+
+  <script src="js/cart.js"></script>
+</body>
+</html>
